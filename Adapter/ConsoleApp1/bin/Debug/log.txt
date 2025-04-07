@@ -1,0 +1,4 @@
+
+[LOG]: This is a logging message
+[ERROR]: This is an error message
+[WARN]: This is a warning message
