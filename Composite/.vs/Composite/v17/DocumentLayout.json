@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|d:\\study\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab3\\composite\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\consoleapp1\\strategy\\fileimageloadingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\strategy\\fileimageloadingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\consoleapp1\\strategy\\networkimageloadingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\strategy\\networkimageloadingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|d:\\study\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab3\\composite\\consoleapp1\\strategy\\iimageloadingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\strategy\\iimageloadingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +47,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IImageLoadingStrategy.cs",
+              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Strategy\\IImageLoadingStrategy.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Strategy\\IImageLoadingStrategy.cs",
+              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Strategy\\IImageLoadingStrategy.cs",
+              "RelativeToolTip": "ConsoleApp1\\Strategy\\IImageLoadingStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:32:40.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NetworkImageLoadingStrategy.cs",
+              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Strategy\\NetworkImageLoadingStrategy.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Strategy\\NetworkImageLoadingStrategy.cs",
+              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Strategy\\NetworkImageLoadingStrategy.cs",
+              "RelativeToolTip": "ConsoleApp1\\Strategy\\NetworkImageLoadingStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T16:55:39.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileImageLoadingStrategy.cs",
+              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Strategy\\FileImageLoadingStrategy.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Strategy\\FileImageLoadingStrategy.cs",
+              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Strategy\\FileImageLoadingStrategy.cs",
+              "RelativeToolTip": "ConsoleApp1\\Strategy\\FileImageLoadingStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T16:53:58.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T10:35:02.832Z",
+              "EditorCaption": ""
             }
           ]
         }

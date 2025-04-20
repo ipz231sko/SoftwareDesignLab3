@@ -7,13 +7,39 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Net.Http;
 using ConsoleApp1.Observer;
+using ConsoleApp1.Strategy;
 namespace ConsoleApp1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            var div = new LightElementNode("div", DisplayType.Block, TagType.Paired);
+            System.Globalization.CultureInfo customCulture = (System.Globalization.CultureInfo)
+            System.Threading.Thread.CurrentThread.CurrentCulture.Clone();
+            customCulture.NumberFormat.NumberDecimalSeparator = ".";
+            System.Threading.Thread.CurrentThread.CurrentCulture = customCulture;
+            Console.OutputEncoding = Encoding.Unicode;
+            Console.InputEncoding = Encoding.Unicode;
+
+            //Startegy
+
+            IImageLoadingStrategy fileStrategy = new FileImageLoadingStrategy();
+            IImageLoadingStrategy networkStrategy = new NetworkImageLoadingStrategy();
+
+            Console.WriteLine("=== 🖼 Картинка з файлу === \n");
+            var localImage = new LightImageElement("D:/study/Конструювання програмного забезпечення/Lab3/Composite/ConsoleApp1/images/2.jpg", fileStrategy);
+            localImage.Display();
+
+            Console.WriteLine("\nКартинка з Інтернету");
+            var webImage = new LightImageElement("https://t3.ftcdn.net/jpg/02/36/99/22/360_F_236992283_sNOxCVQeFLd5pdqaKGh8DRGMZy7P4XKm.jpg", networkStrategy);
+            webImage.Display();
+
+            Console.WriteLine("\nЗміна стратегії на льоту (на fileStrategy)");
+            webImage.SetStrategy(fileStrategy);
+            webImage.Display();
+
+            //Observer
+            /*var div = new LightElementNode("div", DisplayType.Block, TagType.Paired);
             div.AddClass("container");
             div.AddChild(new LightTextNode("Hello World"));
 
@@ -29,8 +55,9 @@ namespace ConsoleApp1
             Console.WriteLine("Triggering 'click' event...");
             div.TriggerEvent("click");
 
-            Console.WriteLine("Triggering 'mouseover' event...");
-            div.TriggerEvent("mouseover");
+            Console.WriteLine("Triggering 'mouseover' event... \n");
+            div.TriggerEvent("mouseover");*/
+
             /*string filePath = "pg1513.txt";
             await DownloadFileAsync("https://www.gutenberg.org/cache/epub/1513/pg1513.txt", filePath);
 

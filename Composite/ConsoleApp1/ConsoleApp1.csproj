@@ -52,9 +52,17 @@
     <Compile Include="Observer\IEventListener.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strategy\FileImageLoadingStrategy.cs" />
+    <Compile Include="Strategy\IImageLoadingStrategy.cs" />
+    <Compile Include="Strategy\LightImageElement.cs" />
+    <Compile Include="Strategy\NetworkImageLoadingStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="images\2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
