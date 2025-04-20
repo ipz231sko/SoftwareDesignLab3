@@ -1,6 +1,8 @@
-﻿using System;
+﻿using ConsoleApp1.Observer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -67,6 +69,33 @@ namespace ConsoleApp1
                     sb.Append(child.OuterHTML);
                 }
                 return sb.ToString();
+            }
+        }
+
+        private readonly Dictionary<string, List<IEventListener>> _eventListeners = new Dictionary<string, List<IEventListener>>();
+
+        public void AddEventListener(string eventType, IEventListener listener)
+        {
+            if (!_eventListeners.ContainsKey(eventType))
+                _eventListeners[eventType] = new List<IEventListener>();
+
+            _eventListeners[eventType].Add(listener);
+        }
+
+        public void RemoveEventListener(string eventType, IEventListener listener)
+        {
+            if (_eventListeners.ContainsKey(eventType))
+                _eventListeners[eventType].Remove(listener);
+        }
+
+        public void TriggerEvent(string eventType)
+        {
+            if (_eventListeners.ContainsKey(eventType))
+            {
+                foreach (var listener in _eventListeners[eventType])
+                {
+                    listener.HandleEvent(eventType, this);
+                }
             }
         }
     }
