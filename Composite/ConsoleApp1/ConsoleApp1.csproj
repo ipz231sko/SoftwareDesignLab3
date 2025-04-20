@@ -48,6 +48,8 @@
     <Compile Include="Composite\LightNode.cs" />
     <Compile Include="Composite\LightTextNode.cs" />
     <Compile Include="Flyweight\HTMLElementFlyweightFactory.cs" />
+    <Compile Include="Observer\ConsoleLoggerListener.cs" />
+    <Compile Include="Observer\IEventListener.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -6,13 +6,32 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Net.Http;
+using ConsoleApp1.Observer;
 namespace ConsoleApp1
 {
     internal class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
-            string filePath = "pg1513.txt";
+            var div = new LightElementNode("div", DisplayType.Block, TagType.Paired);
+            div.AddClass("container");
+            div.AddChild(new LightTextNode("Hello World"));
+
+            var clickListener = new ConsoleLoggerListener("ClickHandler");
+            var hoverListener = new ConsoleLoggerListener("HoverHandler");
+
+            div.AddEventListener("click", clickListener);
+            div.AddEventListener("mouseover", hoverListener);
+
+            Console.WriteLine("Initial HTML:");
+            Console.WriteLine(div.OuterHTML);
+
+            Console.WriteLine("Triggering 'click' event...");
+            div.TriggerEvent("click");
+
+            Console.WriteLine("Triggering 'mouseover' event...");
+            div.TriggerEvent("mouseover");
+            /*string filePath = "pg1513.txt";
             await DownloadFileAsync("https://www.gutenberg.org/cache/epub/1513/pg1513.txt", filePath);
 
             //Composite
@@ -66,10 +85,10 @@ namespace ConsoleApp1
             Console.WriteLine($"Used memory: {after - before} байт");
             Console.WriteLine();
             Console.WriteLine("The beginning of the generated HTML:");
-            Console.WriteLine(html.OuterHTML.Substring(0, 5000));
+            Console.WriteLine(html.OuterHTML.Substring(0, 5000));*/
         }
 
-        static async Task DownloadFileAsync(string url, string filePath)
+       /* static async Task DownloadFileAsync(string url, string filePath)
         {
             using (HttpClient client = new HttpClient())
             {
@@ -117,6 +136,6 @@ namespace ConsoleApp1
             GC.Collect();
 
             return GC.GetTotalMemory(true);
-        }
+        }*/
     }
 }
