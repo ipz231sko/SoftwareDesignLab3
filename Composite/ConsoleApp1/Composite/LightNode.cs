@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    abstract class LightNode
+    public abstract class LightNode
     {
         public abstract string OuterHTML { get; }
         public abstract string InnerHTML { get; }

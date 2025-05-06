@@ -48,6 +48,10 @@
     <Compile Include="Composite\LightNode.cs" />
     <Compile Include="Composite\LightTextNode.cs" />
     <Compile Include="Flyweight\HTMLElementFlyweightFactory.cs" />
+    <Compile Include="Iterator\BreadthFirstIterator.cs" />
+    <Compile Include="Iterator\DepthFirstIterator.cs" />
+    <Compile Include="Iterator\ILightNodeCollection.cs" />
+    <Compile Include="Iterator\ILightNodeIterator.cs" />
     <Compile Include="Observer\ConsoleLoggerListener.cs" />
     <Compile Include="Observer\IEventListener.cs" />
     <Compile Include="Program.cs" />
@@ -60,9 +64,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Template Method\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="images\2.jpg" />
   </ItemGroup>

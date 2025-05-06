@@ -21,23 +21,40 @@ namespace ConsoleApp1
             Console.OutputEncoding = Encoding.Unicode;
             Console.InputEncoding = Encoding.Unicode;
 
-            //Template Method
-            var div = new LightElementNode("div", DisplayType.Block, TagType.Paired);
-            div.AddClass("container");
+            var root = new LightElementNode("html", DisplayType.Block, TagType.Paired);
+            var body = new LightElementNode("body", DisplayType.Block, TagType.Paired);
+            var p1 = new LightElementNode("p", DisplayType.Block, TagType.Paired);
+            var p2 = new LightElementNode("p", DisplayType.Block, TagType.Paired);
+            var text1 = new LightTextNode("Hello");
+            var text2 = new LightTextNode("Kateryna");
 
-            var paragraph = new LightElementNode("p", DisplayType.Block, TagType.Paired);
-            paragraph.AddChild(new LightTextNode("Hello Kateryna!"));
+            p1.AddChild(text1);
+            p2.AddChild(text2);
+            body.AddChild(p1);
+            body.AddChild(p2);
+            root.AddChild(body);
 
-            div.AddChild(paragraph);
+            var depthIterator = root.CreateDepthIterator();
+            Console.WriteLine("Depth-first traversal (DFS)");
+            while (depthIterator.MoveNext())
+            {
+                var node = depthIterator.Current;
+                if (node is LightElementNode el)
+                    Console.WriteLine($"Element: <{el.TagName}>");
+                else if (node is LightTextNode text)
+                    Console.WriteLine($"Text: \"{text.Text}\"");
+            }
 
-            Console.WriteLine("\n=== Render HTML ===");
-            Console.WriteLine(div.RenderWithLifecycle());
-
-            Console.WriteLine("\n=== Delete <p> ===");
-            div.RemoveChild(paragraph);
-
-            Console.WriteLine("\n=== Render after deletion ===");
-            Console.WriteLine(div.RenderWithLifecycle());
+            var breadthIterator = root.CreateBreadthIterator();
+            Console.WriteLine("\nBreadth-first traversal (BFS)");
+            while (breadthIterator.MoveNext())
+            {
+                var node = breadthIterator.Current;
+                if (node is LightElementNode el)
+                    Console.WriteLine($"Element: <{el.TagName}>");
+                else if (node is LightTextNode text)
+                    Console.WriteLine($"Text: \"{text.Text}\"");
+            }
         }
     }
 }
