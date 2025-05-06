@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.Observer
+namespace ConsoleApp1.Command
 {
-    public interface IEventListener
+    public interface ILightCommand
     {
-        void HandleEvent(string eventType, LightElementNode element);
+        void Execute();
+        void Undo();
     }
 }

@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command\AddChildCommand.cs" />
+    <Compile Include="Command\AddClassCommand.cs" />
+    <Compile Include="Command\CommandInvoker.cs" />
+    <Compile Include="Command\ILightCommand.cs" />
     <Compile Include="Composite\Enums.cs" />
     <Compile Include="Composite\LightElementNode.cs" />
     <Compile Include="Composite\LightNode.cs" />

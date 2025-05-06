@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class LightElementNode : LightNode
+    public class LightElementNode : LightNode
     {
         public string TagName { get; }
         public DisplayType Display { get; }
