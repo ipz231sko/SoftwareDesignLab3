@@ -10,5 +10,24 @@ namespace ConsoleApp1
     {
         public abstract string OuterHTML { get; }
         public abstract string InnerHTML { get; }
+
+        public virtual void OnCreated() { }
+        public virtual void OnInserted() { }
+        public virtual void OnRemoved() { }
+        public virtual void OnStylesApplied() { }
+        public virtual void OnClassListApplied() { }
+        public virtual void OnTextRendered() { }
+
+        public string RenderWithLifecycle()
+        {
+            OnCreated();
+            OnStylesApplied();
+            OnClassListApplied();
+            OnInserted();
+            string rendered = OuterHTML;
+            OnTextRendered();
+            return rendered;
+        }
+
     }
 }

@@ -60,7 +60,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Template Method\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="images\2.jpg" />
   </ItemGroup>
