@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1.Visitor;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Strategy
 {
-    class LightImageElement : LightNode
+    public class LightImageElement : LightNode
     {
         public string Src { get; }
         private IImageLoadingStrategy _loadingStrategy;
@@ -29,5 +30,9 @@ namespace ConsoleApp1.Strategy
 
         public override string OuterHTML => $"<img src=\"{Src}\" />";
         public override string InnerHTML => string.Empty;
+
+        public override void Accept(ILightNodeVisitor visitor)
+        {
+        }
     }
 }

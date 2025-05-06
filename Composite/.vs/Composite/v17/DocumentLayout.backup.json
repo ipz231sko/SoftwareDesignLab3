@@ -3,52 +3,36 @@
   "WorkspaceRootPath": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|d:\\study\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab3\\composite\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\consoleapp1\\composite\\lightelementnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\composite\\lightelementnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|d:\\study\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab3\\composite\\consoleapp1\\state\\visiblestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\state\\visiblestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|d:\\study\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab3\\composite\\consoleapp1\\composite\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\composite\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|d:\\study\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab3\\composite\\consoleapp1\\state\\collapsedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\state\\collapsedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|d:\\study\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab3\\composite\\consoleapp1\\visitor\\nodecountvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\visitor\\nodecountvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|d:\\study\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab3\\composite\\consoleapp1\\state\\hiddenstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\state\\hiddenstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|d:\\study\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab3\\composite\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|d:\\study\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab3\\composite\\consoleapp1\\state\\ivisibilitystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\state\\ivisibilitystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|d:\\study\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab3\\composite\\consoleapp1\\strategy\\lightimageelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\strategy\\lightimageelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\consoleapp1\\command\\commandinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\command\\commandinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\consoleapp1\\observer\\ieventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\observer\\ieventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|d:\\study\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab3\\composite\\consoleapp1\\visitor\\ilightnodevisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\visitor\\ilightnodevisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\consoleapp1\\composite\\lightnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\composite\\lightnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\consoleapp1\\command\\addchildcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\command\\addchildcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\consoleapp1\\command\\addclasscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\command\\addclasscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\consoleapp1\\command\\ilightcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\command\\ilightcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|d:\\study\\\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\lab3\\composite\\consoleapp1\\visitor\\iacceptvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CAC04B-B245-44DA-97A6-6CD072030FDB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\visitor\\iacceptvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,152 +66,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CollapsedState.cs",
-              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\State\\CollapsedState.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\State\\CollapsedState.cs",
-              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\State\\CollapsedState.cs",
-              "RelativeToolTip": "ConsoleApp1\\State\\CollapsedState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "LightImageElement.cs",
+              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Strategy\\LightImageElement.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Strategy\\LightImageElement.cs",
+              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Strategy\\LightImageElement.cs",
+              "RelativeToolTip": "ConsoleApp1\\Strategy\\LightImageElement.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:25:50.289Z",
+              "WhenOpened": "2025-05-06T17:23:45.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HiddenState.cs",
-              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\State\\HiddenState.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\State\\HiddenState.cs",
-              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\State\\HiddenState.cs",
-              "RelativeToolTip": "ConsoleApp1\\State\\HiddenState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABqAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:22:50.25Z",
+              "WhenOpened": "2025-05-06T17:23:22.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "VisibleState.cs",
-              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\State\\VisibleState.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\State\\VisibleState.cs",
-              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\State\\VisibleState.cs",
-              "RelativeToolTip": "ConsoleApp1\\State\\VisibleState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Title": "NodeCountVisitor.cs",
+              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Visitor\\NodeCountVisitor.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Visitor\\NodeCountVisitor.cs",
+              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Visitor\\NodeCountVisitor.cs",
+              "RelativeToolTip": "ConsoleApp1\\Visitor\\NodeCountVisitor.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAEwBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:17:40.206Z",
+              "WhenOpened": "2025-05-06T17:19:17.649Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IVisibilityState.cs",
-              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\State\\IVisibilityState.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\State\\IVisibilityState.cs",
-              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\State\\IVisibilityState.cs",
-              "RelativeToolTip": "ConsoleApp1\\State\\IVisibilityState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:13:33.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IEventListener.cs",
-              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Observer\\IEventListener.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Observer\\IEventListener.cs",
-              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Observer\\IEventListener.cs",
-              "RelativeToolTip": "ConsoleApp1\\Observer\\IEventListener.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:28:41.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CommandInvoker.cs",
-              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Command\\CommandInvoker.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Command\\CommandInvoker.cs",
-              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Command\\CommandInvoker.cs",
-              "RelativeToolTip": "ConsoleApp1\\Command\\CommandInvoker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:23:42.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddClassCommand.cs",
-              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Command\\AddClassCommand.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Command\\AddClassCommand.cs",
-              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Command\\AddClassCommand.cs",
-              "RelativeToolTip": "ConsoleApp1\\Command\\AddClassCommand.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:21:03.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddChildCommand.cs",
-              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Command\\AddChildCommand.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Command\\AddChildCommand.cs",
-              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Command\\AddChildCommand.cs",
-              "RelativeToolTip": "ConsoleApp1\\Command\\AddChildCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:15:54.467Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ILightCommand.cs",
-              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Command\\ILightCommand.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Command\\ILightCommand.cs",
-              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Command\\ILightCommand.cs",
-              "RelativeToolTip": "ConsoleApp1\\Command\\ILightCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:15:05.473Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LightTextNode.cs",
+              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Composite\\LightTextNode.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Composite\\LightTextNode.cs",
+              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Composite\\LightTextNode.cs",
+              "RelativeToolTip": "ConsoleApp1\\Composite\\LightTextNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T17:18:41.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "LightElementNode.cs",
               "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Composite\\LightElementNode.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Composite\\LightElementNode.cs",
               "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Composite\\LightElementNode.cs",
               "RelativeToolTip": "ConsoleApp1\\Composite\\LightElementNode.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAwwBoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAJoAAAAAAAAAAAA0wKYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T10:25:44.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "LightNode.cs",
               "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Composite\\LightNode.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Composite\\LightNode.cs",
               "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Composite\\LightNode.cs",
               "RelativeToolTip": "ConsoleApp1\\Composite\\LightNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwB8AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T10:21:33.358Z"
+              "WhenOpened": "2025-05-06T10:21:33.358Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwCUAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "IAcceptVisitor.cs",
+              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Visitor\\IAcceptVisitor.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Visitor\\IAcceptVisitor.cs",
+              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Visitor\\IAcceptVisitor.cs",
+              "RelativeToolTip": "ConsoleApp1\\Visitor\\IAcceptVisitor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T10:35:02.832Z",
+              "WhenOpened": "2025-05-06T17:16:33.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ILightNodeVisitor.cs",
+              "DocumentMoniker": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Visitor\\ILightNodeVisitor.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Visitor\\ILightNodeVisitor.cs",
+              "ToolTip": "D:\\study\\\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u044E\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\Lab3\\Composite\\ConsoleApp1\\Visitor\\ILightNodeVisitor.cs",
+              "RelativeToolTip": "ConsoleApp1\\Visitor\\ILightNodeVisitor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T17:13:59.599Z",
               "EditorCaption": ""
             }
           ]

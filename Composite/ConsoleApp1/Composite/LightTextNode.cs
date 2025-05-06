@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1.Visitor;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class LightTextNode : LightNode
+    public class LightTextNode : LightNode
     {
         public string Text { get; }
 
@@ -17,5 +18,9 @@ namespace ConsoleApp1
 
         public override string OuterHTML => Text;
         public override string InnerHTML => Text;
+        public override void Accept(ILightNodeVisitor visitor)
+        {
+            visitor.VisitText(this);
+        }
     }
 }
