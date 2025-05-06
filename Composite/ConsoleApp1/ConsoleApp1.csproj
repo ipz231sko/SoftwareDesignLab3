@@ -68,6 +68,9 @@
     <Compile Include="Strategy\IImageLoadingStrategy.cs" />
     <Compile Include="Strategy\LightImageElement.cs" />
     <Compile Include="Strategy\NetworkImageLoadingStrategy.cs" />
+    <Compile Include="Visitor\IAcceptVisitor.cs" />
+    <Compile Include="Visitor\ILightNodeVisitor.cs" />
+    <Compile Include="Visitor\NodeCountVisitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

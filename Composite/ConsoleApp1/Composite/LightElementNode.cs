@@ -2,6 +2,7 @@
 using ConsoleApp1.Iterator;
 using ConsoleApp1.Observer;
 using ConsoleApp1.State;
+using ConsoleApp1.Visitor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -160,6 +161,15 @@ namespace ConsoleApp1
         public string RenderWithState()
         {
             return _state.Render(this);
+        }
+        public override void Accept(ILightNodeVisitor visitor)
+        {
+            visitor.VisitElement(this);
+
+            foreach (var child in Children)
+            {
+                child.Accept(visitor);
+            }
         }
     }
 }

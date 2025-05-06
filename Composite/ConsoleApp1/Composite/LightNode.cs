@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1.Visitor;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,6 +29,7 @@ namespace ConsoleApp1
             OnTextRendered();
             return rendered;
         }
-
+        public abstract void Accept(ILightNodeVisitor visitor);
     }
+
 }

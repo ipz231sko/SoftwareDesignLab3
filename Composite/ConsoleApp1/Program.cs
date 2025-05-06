@@ -10,6 +10,7 @@ using ConsoleApp1.Observer;
 using ConsoleApp1.Strategy;
 using ConsoleApp1.Command;
 using ConsoleApp1.State;
+using ConsoleApp1.Visitor;
 namespace ConsoleApp1
 {
     internal class Program
@@ -23,20 +24,25 @@ namespace ConsoleApp1
             Console.OutputEncoding = Encoding.Unicode;
             Console.InputEncoding = Encoding.Unicode;
 
-            var div = new LightElementNode("div", DisplayType.Block, TagType.Paired);
-            div.AddClass("alert");
-            div.AddChild(new LightTextNode("Hello in visible state!"));
+            var root = new LightElementNode("html", DisplayType.Block, TagType.Paired);
+            var body = new LightElementNode("body", DisplayType.Block, TagType.Paired);
+            var p1 = new LightElementNode("p", DisplayType.Block, TagType.Paired);
+            var p2 = new LightElementNode("p", DisplayType.Block, TagType.Paired);
+            var text1 = new LightTextNode("Hello");
+            var text2 = new LightTextNode("World");
 
-            Console.WriteLine("Visible");
-            Console.WriteLine(div.RenderWithState());
+            p1.AddChild(text1);
+            p2.AddChild(text2);
+            body.AddChild(p1);
+            body.AddChild(p2);
+            root.AddChild(body);
 
-            div.SetVisibilityState(new HiddenState());
-            Console.WriteLine("\nHidden");
-            Console.WriteLine(div.RenderWithState());
+            var visitor = new NodeCountVisitor();
+            root.Accept(visitor);
 
-            div.SetVisibilityState(new CollapsedState());
-            Console.WriteLine("\nCollapsed");
-            Console.WriteLine(div.RenderWithState());
+            Console.WriteLine($"Element nodes: {visitor.ElementCount}");
+            Console.WriteLine($"Text nodes: {visitor.TextCount}");
+
         }
     }
 }
