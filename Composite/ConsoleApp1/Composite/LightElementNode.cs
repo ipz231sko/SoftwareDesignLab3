@@ -1,4 +1,5 @@
-﻿using ConsoleApp1.Observer;
+﻿using ConsoleApp1.Iterator;
+using ConsoleApp1.Observer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -137,5 +138,13 @@ namespace ConsoleApp1
             }
         }
 
+        public ILightNodeIterator CreateDepthIterator()
+        {
+            return new DepthFirstIterator(this);
+        }
+        public ILightNodeIterator CreateBreadthIterator()
+        {
+            return new BreadthFirstIterator(this);
+        }
     }
 }
