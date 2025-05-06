@@ -1,5 +1,7 @@
-﻿using ConsoleApp1.Iterator;
+﻿using ConsoleApp1.Command;
+using ConsoleApp1.Iterator;
 using ConsoleApp1.Observer;
+using ConsoleApp1.State;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +18,8 @@ namespace ConsoleApp1
         public TagType TagType { get; }
         public List<string> CssClasses { get; } = new List<string>();
         public List<LightNode> Children { get; } = new List<LightNode>();
+
+        private IVisibilityState _state = new VisibleState();
 
         public LightElementNode(string tagName, DisplayType display, TagType tagType)
         {
@@ -145,6 +149,17 @@ namespace ConsoleApp1
         public ILightNodeIterator CreateBreadthIterator()
         {
             return new BreadthFirstIterator(this);
+        }
+
+        public void SetVisibilityState(IVisibilityState newState)
+        {
+            _state.OnExit();
+            _state = newState;
+            _state.OnEnter();
+        }
+        public string RenderWithState()
+        {
+            return _state.Render(this);
         }
     }
 }
