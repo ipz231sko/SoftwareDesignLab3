@@ -47,6 +47,9 @@
     <Compile Include="Command\AddClassCommand.cs" />
     <Compile Include="Command\CommandInvoker.cs" />
     <Compile Include="Command\ILightCommand.cs" />
+    <Compile Include="State\CollapsedState.cs" />
+    <Compile Include="State\HiddenState.cs" />
+    <Compile Include="State\VisibleState.cs" />
     <Compile Include="Composite\Enums.cs" />
     <Compile Include="Composite\LightElementNode.cs" />
     <Compile Include="Composite\LightNode.cs" />
@@ -60,6 +63,7 @@
     <Compile Include="Observer\IEventListener.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="State\IVisibilityState.cs" />
     <Compile Include="Strategy\FileImageLoadingStrategy.cs" />
     <Compile Include="Strategy\IImageLoadingStrategy.cs" />
     <Compile Include="Strategy\LightImageElement.cs" />

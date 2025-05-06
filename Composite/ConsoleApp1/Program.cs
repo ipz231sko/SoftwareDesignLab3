@@ -9,6 +9,7 @@ using System.Net.Http;
 using ConsoleApp1.Observer;
 using ConsoleApp1.Strategy;
 using ConsoleApp1.Command;
+using ConsoleApp1.State;
 namespace ConsoleApp1
 {
     internal class Program
@@ -23,18 +24,19 @@ namespace ConsoleApp1
             Console.InputEncoding = Encoding.Unicode;
 
             var div = new LightElementNode("div", DisplayType.Block, TagType.Paired);
-            var p = new LightElementNode("p", DisplayType.Block, TagType.Paired);
-            var text = new LightTextNode("Hello from command!");
+            div.AddClass("alert");
+            div.AddChild(new LightTextNode("Hello in visible state!"));
 
-            var invoker = new CommandInvoker();
+            Console.WriteLine("Visible");
+            Console.WriteLine(div.RenderWithState());
 
-            invoker.ExecuteCommand(new AddClassCommand(div, "wrapper"));
+            div.SetVisibilityState(new HiddenState());
+            Console.WriteLine("\nHidden");
+            Console.WriteLine(div.RenderWithState());
 
-            invoker.ExecuteCommand(new AddChildCommand(div, p));
-            invoker.ExecuteCommand(new AddChildCommand(p, text));
-
-            invoker.Undo();
-
+            div.SetVisibilityState(new CollapsedState());
+            Console.WriteLine("\nCollapsed");
+            Console.WriteLine(div.RenderWithState());
         }
     }
 }
