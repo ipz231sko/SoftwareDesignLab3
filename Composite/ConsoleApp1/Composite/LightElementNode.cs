@@ -98,5 +98,44 @@ namespace ConsoleApp1
                 }
             }
         }
+
+        public override void OnCreated()
+        {
+            Console.WriteLine($"[HOOK] <{TagName}> created");
+        }
+        public override void OnInserted()
+        {
+            Console.WriteLine($"[HOOK] <{TagName}> inserted into DOM");
+        }
+        public override void OnStylesApplied()
+        {
+            Console.WriteLine($"[HOOK] Styles applied to <{TagName}>");
+        }
+        public override void OnClassListApplied()
+        {
+            Console.WriteLine($"[HOOK] Class lost applied to <{TagName}>: {string.Join(", ", CssClasses)}");
+        }
+        public override void OnTextRendered()
+        {
+            Console.WriteLine($"[HOOK] Text rendered for <{TagName}>");
+        }
+        public override void OnRemoved()
+        {
+            Console.WriteLine($"[HOOK] <{TagName}> element removed from DOM");
+        }
+        public void RemoveChild(LightNode node)
+        {
+            if (Children.Contains(node))
+            {
+                node.OnRemoved();
+                Children.Remove(node);
+                Console.WriteLine($"[INFO] Child node removed from <{TagName}>");
+            }
+            else
+            {
+                Console.WriteLine($"[WARN] Attempted to remove node not in children of <{TagName}>");
+            }
+        }
+
     }
 }

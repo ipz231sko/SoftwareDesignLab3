@@ -25,7 +25,7 @@ namespace ConsoleApp1.Strategy
                     stream.CopyTo(memoryStream);
                     byte[] imageData = memoryStream.ToArray();
 
-                    Console.WriteLine($"[NET] ✅ Successfully downloaded image ({imageData.Length} bytes)");
+                    Console.WriteLine($"[NET] Successfully downloaded image ({imageData.Length} bytes)");
 
                     Console.Write("[NET] First bytes: ");
                     for (int i = 0; i < Math.Min(10, imageData.Length); i++)
